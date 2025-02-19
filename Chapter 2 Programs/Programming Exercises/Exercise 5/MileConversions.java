@@ -1,5 +1,5 @@
 /*    Java Programming 10th Edition
-      Chapter 1
+      Chapter 2
       Exercises 02-05a
 
        Write a program that declares named constants to represent the number of inches, feet, and yards in a mile. 
