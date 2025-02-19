@@ -1,5 +1,5 @@
 /*    Java Programming 10th Edition
-      Chapter 1
+      Chapter 2
       Exercises 02-06b
 
        Write an interactive version of the InchesToFeet class that accepts the inches value from a user.
