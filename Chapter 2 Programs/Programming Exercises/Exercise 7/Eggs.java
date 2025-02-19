@@ -1,5 +1,5 @@
 /*    Java Programming 10th Edition
-      Chapter 1
+      Chapter 2
       Exercises 02-07
 
        Meadowdale Dairy Farm sells organic brown eggs to local customers. It charges $3.25 for a dozen eggs or 45 cents for individual eggs that are not 
