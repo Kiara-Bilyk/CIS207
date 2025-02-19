@@ -1,5 +1,5 @@
 /*    Java Programming 10th Edition
-      Chapter 1
+      Chapter 2
       Exercises 02-05b
 
        Convert the MileConversions program to an interactive application. Instead of assigning a value to the miles variable, 
