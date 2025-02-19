@@ -1,5 +1,5 @@
 /*    Java Programming 10th Edition
-      Chapter 1
+      Chapter 2
       Exercises 02-04a
 
        Write a program that declares a named constant to hold the number of quarts in a gallon and a variable to represent 
