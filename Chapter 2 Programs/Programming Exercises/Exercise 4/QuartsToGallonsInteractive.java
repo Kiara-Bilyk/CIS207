@@ -1,5 +1,5 @@
 /*    Java Programming 10th Edition
-      Chapter 1
+      Chapter 2
       Exercises 02-04b
 
        Convert the QuartsToGallons program to an interactive application. Instead of assigning a value to the number of quarts, accept the 
