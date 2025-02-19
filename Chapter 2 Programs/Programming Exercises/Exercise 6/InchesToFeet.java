@@ -1,5 +1,5 @@
 /*    Java Programming 10th Edition
-      Chapter 1
+      Chapter 2
       Exercises 02-06a
 
        Write a program that declares a variable named inches, which holds a length in inches, and assign a value. 
