@@ -1,8 +1,5 @@
-/* In the ChiliToGo program, the costs to produce an adult’s meal and a child’s meal are $4.35 and $3.10, respectively. Modify the ChiliToGo program to 
-display the total profit for each type of meal as well as the grand total profit. Save the program as ChiliToGoProfit.java.
-
 /*    Java Programming 10th Edition
-      Chapter 1
+      Chapter 2
       Exercises 02-08b
 
        In the ChiliToGo program, the costs to produce an adult’s meal and a child’s meal are $4.35 and $3.10, respectively. Modify the ChiliToGo program 
