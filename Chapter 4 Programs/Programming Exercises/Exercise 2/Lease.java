@@ -27,7 +27,6 @@ public class Lease {
         leaseMonths = 12;
     }
 
-    Scanner scan = new Scanner(System.in); // Scanner Object
     // Input and Set Methods
     public void inputName() { // Sets tenantName
         tenantName = JOptionPane.showInputDialog(null, "Enter tenant name:");
