@@ -12,32 +12,23 @@
 
       Filename: EventDemo.java
 */
-import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 public class EventDemo {
     public static void main(String[] args) {
         Event firstEvent = new Event(); // Event object with default;
 
-        Scanner scan = new Scanner(System.in); // Scanner object
         // Get Input For eventNumber
-        System.out.print("Enter Event Number: ");
-        String eventNumber = scan.next();
+        String eventNumber = JOptionPane.showInputDialog(null,"Enter Event Number:");
         // Get input for guests
-        System.err.print("Enter Number of Guests: ");
-        int guests = scan.nextInt();
-        scan.nextLine(); // Consume the newline
+        int guests = Integer.parseInt(JOptionPane.showInputDialog(null, "Enter Number of Guests:"));
         Event secondEvent = new Event(eventNumber, guests); // Event object With Input
-        scan.close();
 
         displayDetails(firstEvent);
         displayDetails(secondEvent);
     }
     //Method That Displays the Fields in Each Object Passed
     public static void displayDetails(Event myevent) {
-        System.out.println("\nEvent Details:");
-        System.out.println("Event Number: " + myevent.getEventNumber());
-        System.out.println("Number of Guests: " + myevent.getGuestNumber());
-        System.out.println("Price of Event: $" + myevent.getPrice());
-        System.out.println("-----------------------------");
+        JOptionPane.showMessageDialog(null, "Event Details: \nEvent Number: " + myevent.getEventNumber() + "\nNumber of Guests: " + myevent.getGuestNumber() + "Price of Event: $" + myevent.getPrice());
     }
 }
