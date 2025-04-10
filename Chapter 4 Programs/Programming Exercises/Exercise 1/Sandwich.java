@@ -10,25 +10,33 @@
 
       Filename: Sandwich.java
 */
-import java.util.Scanner;
+
 
 public class Sandwich {
-    Scanner scan = new Scanner(System.in);
     String mainIngredient;
     String breadType;
     double price;
 
-    public void inputIngredient() {
-        System.out.print("Enter main ingredient: ");
-        mainIngredient = scan.next();
+    public void setMainIngredient(String ingredient) {
+        mainIngredient = ingredient;
+    }
+    public String getMainIngredients(){
+        return mainIngredient;
     }
 
-    public void inputBread() {
-        System.out.print("Enter bread type: ");
-        breadType = scan.next();
+    public void setBread(String bread) {
+        breadType = bread;
     }
-    public void inputPrice() {
-        System.out.print("Enter price: ");
-        price = scan.nextDouble();
+    public String getBread(){
+        return breadType;
     }
+    
+    public void setPrice(double price) {
+        this.price = price;
+    }
+    public double getPrice(){
+        return price;
+    }
+
+    
 }
