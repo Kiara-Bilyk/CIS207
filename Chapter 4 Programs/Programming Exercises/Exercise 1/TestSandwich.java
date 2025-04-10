@@ -10,15 +10,35 @@
 
       Filename: TestSandwich.java
 */
+import java.util.Scanner;
 
 public class TestSandwich {
     public static void main(String[] args) {
-        Sandwich mySandwich = new Sandwich();
-        mySandwich.inputBread();
-        mySandwich.inputIngredient();
-        mySandwich.inputPrice();
-        System.out.println("Bread Type: " + mySandwich.breadType);
-        System.out.println("Main ingredient: " + mySandwich.mainIngredient);
-        System.out.println("Price: $" + mySandwich.price);
+        Scanner scan = new Scanner(System.in);
+        String ingredient;
+        String bread;
+        double price;
+
+        Sandwich mySandwich = new Sandwich(); // New object of Sandwich class
+
+        // Get input for ingredient
+        System.out.print("Enter main ingredient: ");
+        ingredient = scan.next();
+        // Get input for bread
+        System.out.print("Enter bread type: ");
+        bread = scan.next();
+        // Get input for price
+        System.out.print("Enter price: ");
+        price = scan.nextDouble();
+
+        // Set inputs to object variables
+        mySandwich.setMainIngredient(ingredient);
+        mySandwich.setBread(bread);
+        mySandwich.setPrice(price);
+        
+        // Output
+        System.out.println("Bread Type: " + mySandwich.getBread());
+        System.out.println("Main ingredient: " + mySandwich.getMainIngredients());
+        System.out.println("Price: $" + mySandwich.getPrice());
     }
 }
