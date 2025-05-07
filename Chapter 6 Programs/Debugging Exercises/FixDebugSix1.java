@@ -14,9 +14,9 @@ public class FixDebugSix1
       days = keyboard.nextInt();
       while(days > day)
       {
+         System.out.println("After day " + day + " you have " + money);
          money = 2 * money;
          ++day;
-         System.out.println("After day " + day + " you have " + money);
       }
    }
 }
